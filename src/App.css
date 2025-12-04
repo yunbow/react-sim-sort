@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}

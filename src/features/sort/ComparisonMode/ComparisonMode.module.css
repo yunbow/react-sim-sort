@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.mainTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-foreground);
+  margin: 0;
+  text-align: center;
+}
+
+.algorithmSelectors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.simulators {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.simulator {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-foreground);
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .simulators {
+    grid-template-columns: 1fr;
+  }
+
+  .algorithmSelectors {
+    grid-template-columns: 1fr;
+  }
+}

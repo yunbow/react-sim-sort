@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-size: 0.875rem;
+  color: var(--color-muted-foreground);
+  font-weight: 500;
+}
+
+.value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-foreground);
+}
+
+.complexity {
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.complexityTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-foreground);
+  margin-bottom: 0.75rem;
+}
+
+.complexityGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.complexityItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.complexityLabel {
+  font-size: 0.75rem;
+  color: var(--color-muted-foreground);
+  font-weight: 500;
+}
+
+.complexityValue {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  font-family: var(--font-mono);
+}
+
+.description {
+  padding: 0.75rem;
+  background-color: var(--color-secondary);
+  border-radius: var(--radius-sm);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.descriptionLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-foreground);
+}
+
+.descriptionText {
+  font-size: 0.875rem;
+  color: var(--color-muted-foreground);
+}
+
+.completedBadge {
+  padding: 0.75rem;
+  background-color: var(--color-completed);
+  color: var(--color-primary-foreground);
+  border-radius: var(--radius);
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
