@@ -3,7 +3,7 @@
 React 18とTypeScript、Atomic Designパターンで構築されたソートアルゴリズムの可視化アプリケーションです。
 
 ## デモプレイ
-https://yunbow.github.io/react-sim-sort/demo/
+https://yunbow.github.io/react-sim-array-sort/demo/
 
 ## 主要機能
 
